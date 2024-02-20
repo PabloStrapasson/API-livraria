@@ -3,7 +3,7 @@
 import mongoose from "mongoose";
 
 export default async function conectaDatabase(){
-    mongoose.connect('mongodb+srv://admin:admin123@cluster0.ua9gerg.mongodb.net/livraria?retryWrites=true&w=majority')
+    mongoose.connect(process.env.DB_CONNECTION_STRING)
 
     return mongoose.connection
 }
