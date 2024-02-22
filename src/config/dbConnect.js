@@ -1,5 +1,3 @@
-//mongodb+srv://admin:<password>@cluster0.ua9gerg.mongodb.net/?retryWrites=true&w=majority
-
 import mongoose from "mongoose";
 
 export default async function conectaDatabase(){
