@@ -1,0 +1,26 @@
+livros:
+[
+    {
+        "titulo": "O Senhor dos Anéis",
+    	"autor": "65e623463a7696b1262e4de5",
+    	"editora": "Classicos",
+    	"numeroPaginas": 200,
+    	"_id": "65e627a8e55de3fd3e8e261d"
+    },
+    {
+    	"titulo": "Livro Aleatório",
+    	"autor": "65e623463a7696b1262e4de5",
+    	"editora": "Classicos",
+    	"numeroPaginas": 120,
+    	"_id": "65e6280be55de3fd3e8e261f"
+    }
+]
+
+autores:
+[
+    {
+        "_id": "65e623463a7696b1262e4de5",
+        "nome": "Pablo Strapasson",
+        "nacionalidade": "brasileiro"
+    }
+]
